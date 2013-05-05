@@ -12,7 +12,8 @@
   Created by Nick A. Mortimer, May 4, 2013.
   Released into the public domain.
 */
-    
+ 
+ #include "Feedback.h"   
     Feedback::Feedback(){
       pinMode(LEDPIN, OUTPUT);
     }
