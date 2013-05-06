@@ -10,6 +10,8 @@
 // Some info on text finder that could be usefull?
 // http://playground.arduino.cc/Code/TextFinder
 
+// http://arduino.cc/en/Tutorial/ReadASCIIString
+
   Compass compass;
 
 SoftwareSerial gpsSerial(RXPIN, TXPIN);
@@ -26,6 +28,7 @@ void loop()
   int heading = 0;
   heading = compass.readHeading();
   Serial.print(heading);
+  
   delay(300);
   
 }
