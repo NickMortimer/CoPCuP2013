@@ -15,13 +15,13 @@
 #include "Arduino.h"
 #include "Navigate.h"
 #include "TinyGPS.h"
-SoftwareSerial gpsSerial(RXPIN, TXPIN);
+SoftwareSerial gpsSerialFeed(RXPIN, TXPIN);
 
 // initalise the class
     Navigate::Navigate(){
       lat =0;
       lon =0;
-       gpsSerial.begin(9600);
+       gpsSerialFeed.begin(9600);
     }
     float Navigate::latitude(){
       return ((float)lat/100000);      
@@ -38,8 +38,8 @@ SoftwareSerial gpsSerial(RXPIN, TXPIN);
     void Navigate::distance(){
     }
     void Navigate::updatePosition(){
-        while (gpsSerial.available()) {
-          int c = gpsSerial.read();
+        while (gpsSerialFeed.available()) {
+          int c = gpsSerialFeed.read();
           if (gps.encode(c))  {
            // process new gps info here
            // retrieves +/- lat/long in 100000ths of a degree
