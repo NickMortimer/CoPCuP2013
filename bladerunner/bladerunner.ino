@@ -12,6 +12,8 @@
 
 // http://arduino.cc/en/Tutorial/ReadASCIIString
 
+// http://en.wikipedia.org/wiki/Decimal_degrees
+
   Compass compass;
 
 SoftwareSerial gpsSerial(RXPIN, TXPIN);
