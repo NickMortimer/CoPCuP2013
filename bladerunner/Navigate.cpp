@@ -15,6 +15,8 @@
 #include "Arduino.h"
 #include "Navigate.h"
 #include "TinyGPS.h"
+SoftwareSerial gpsSerial(RXPIN, TXPIN);
+
 // initalise the class
     Navigate::Navigate(){
       lat =0;

@@ -20,7 +20,6 @@
 #include <SoftwareSerial.h>
 #include "Arduino.h"
 #include "TinyGPS.h"
-SoftwareSerial gpsSerial(RXPIN, TXPIN);
 class Navigate
 {
   public:
