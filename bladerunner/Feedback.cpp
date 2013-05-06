@@ -9,6 +9,18 @@
   http://arduino.cc/en/Tutorial/Fade
   How about a Geiger-counter sound?
   http://www.instructables.com/id/How-To-Make-A-Fake-Geiger-Counter/
+  Or some sound effects
+
+  http://www.cs.au.dk/~dsound/DigitalAudio.dir/week12/ArduinoSound/index.html
+  
+  Or play some music  
+  http://www.arduino.cc/en/Tutorial/PlayMelody
+  http://www.arduino.cc/en/Tutorial/Melody
+  
+  Our amplifier
+  https://www.sparkfun.com/products/11044
+  https://www.sparkfun.com/tutorials/392
+  
   Created by Nick A. Mortimer, May 4, 2013.
   Released into the public domain.
 */

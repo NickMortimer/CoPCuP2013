@@ -28,7 +28,8 @@ See Data Sheet for full description
 
 
 #include <Wire.h>
-Compass::Compass()
+
+ Compass::Compass()
 {
    HMC6352SlaveAddress = 0x42 >> 1;
 }
